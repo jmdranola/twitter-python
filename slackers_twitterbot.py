@@ -29,7 +29,7 @@ OAUTH_TOKEN_SECRET = "YeSkgYh6ijsGLZosqDXetiTGj0D4mIGlZlTDzycRmkoKd"
 
 
 #for slack bot
-token = "xoxp-36519852806-42258330454-46187977719-9d6bdfb9a9"  #get this value from slack.
+token = ""  #get this value from slack.
 sc = SlackClient(token) #instanciate
 sc.api_call("api.test")
 sc.api_call("channels.info", channel="1234567890")
